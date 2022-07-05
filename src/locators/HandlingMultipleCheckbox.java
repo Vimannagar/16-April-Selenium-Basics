@@ -5,8 +5,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class XpathLocator {
-
+public class HandlingMultipleCheckbox {
+	
 	public static void main(String[] args) {
 
 		System.setProperty("webdriver.chrome.driver",
@@ -31,7 +31,12 @@ public class XpathLocator {
 		
 		driver.findElement(By.xpath("//a[@id='menu_admin_viewAdminModule']")).click();
 		
-		driver.findElement(By.xpath("(//input[@type='checkbox'])[14]")).click();
+		for(int i=2; i<=45; i++)
+		{
+		
+		driver.findElement(By.xpath("(//input[@type='checkbox'])["+i+"]")).click();
+		
+		}
 
 	}
 
