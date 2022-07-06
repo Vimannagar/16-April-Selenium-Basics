@@ -1,14 +1,18 @@
 package locators;
 
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class HandlingMultipleCheckbox {
+public class FindElementsMethod {
+	
 	
 	public static void main(String[] args) {
-
+		
+		
 		System.setProperty("webdriver.chrome.driver",
 				"F:\\Desktop\\VimanNagar\\16 Apr\\Selenium download\\chromedriver_win32\\chromedriver.exe");
 
@@ -31,14 +35,18 @@ public class HandlingMultipleCheckbox {
 		
 		driver.findElement(By.xpath("//a[@id='menu_admin_viewAdminModule']")).click();
 		
-		for(int i=2; i<=45; i++)
-		{		
-			if(i%2==0)
-			{
-		driver.findElement(By.xpath("(//input[@type='checkbox'])["+i+"]")).click();
-			}
-		}		
-
+		
+	List<WebElement> checkboxes = driver.findElements(By.xpath("//*[contains(@id,'ohrmList_chkSelectRecord_')]"));
+	
+	
+	
+	for(WebElement check :checkboxes)
+	{
+		check.click();
+	}
+	
+	
+		
 	}
 
 }
