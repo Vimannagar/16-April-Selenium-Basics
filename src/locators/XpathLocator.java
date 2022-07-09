@@ -20,7 +20,7 @@ public class XpathLocator {
 
 		WebElement username = driver.findElement(By.xpath("//input[@name='txtUsername']"));
 
-		username.sendKeys("Admin");
+		username.sendKeys("Adminn");
 
 		WebElement pwd = driver.findElement(By.xpath("//input[@type='password']"));
 
@@ -28,10 +28,17 @@ public class XpathLocator {
 
 		driver.findElement(By.xpath("//input[@type='submit']")).click();
 		
+	WebElement message = driver.findElement(By.xpath("//*[@id='spanMessage']"));
 		
-		driver.findElement(By.xpath("//a[@id='menu_admin_viewAdminModule']")).click();
-		
-		driver.findElement(By.xpath("(//input[@type='checkbox'])[14]")).click();
+	String msg = message.getText();
+	
+	System.out.println(msg);
+	
+	
+//		
+//		driver.findElement(By.xpath("//a[@id='menu_admin_viewAdminModule']")).click();
+//		
+//		driver.findElement(By.xpath("(//input[@type='checkbox'])[14]")).click();
 
 	}
 
