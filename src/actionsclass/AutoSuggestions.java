@@ -36,6 +36,12 @@ public class AutoSuggestions {
 			String displayingoption = option.getText();
 			
 			System.out.println(displayingoption);
+			
+			if(displayingoption.equalsIgnoreCase("Selenium Webdriver"))
+			{
+				option.click();
+				break;
+			}
 		}
 	
 	
