@@ -34,6 +34,8 @@ public class DoubleClickAction {
 		act.contextClick(doubleclickbutton).perform();
 		
 		
+		
+		
 	}
 
 }
