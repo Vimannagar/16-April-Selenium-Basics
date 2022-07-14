@@ -1,13 +1,17 @@
 package locators;
 
+import java.io.IOException;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import utility.ScreenShot;
+
 public class FacebookSignup {
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 		
 		
 		System.setProperty("webdriver.chrome.driver",
@@ -17,9 +21,9 @@ public class FacebookSignup {
 
 		driver.manage().window().maximize();
 
-		driver.get("https://www.facebook.com");
+		driver.get("https://www.facebook.com/signup");
 		
-		driver.findElement(By.xpath("//a[@data-testid='open-registration-form-button']")).click();
+//		driver.findElement(By.xpath("//a[@data-testid='open-registration-form-button']")).click();
 		
 //		driver.findElement(By.xpath("//input[contains(@id,'u_0_d_')]")).sendKeys("Corporate");
 		
@@ -32,6 +36,9 @@ WebElement mobilenumber = driver.findElement(By.xpath("//*[contains(@id,'u_0_g_'
 		 
 		 System.out.println(enteredtext);
 		
+		 ScreenShot.captureScreenshot(driver, "fbsignuppage3");
+		 
+		 
 		
 	}
 
