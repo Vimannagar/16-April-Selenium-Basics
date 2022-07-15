@@ -48,6 +48,10 @@ public class Scrolling {
 		
 		act.scrollToElement(positionelement).perform();
 		
+	
+		
+//	WAP to scroll over the page by pixel using scrollByAmount()
+		
 		
 		
 	}

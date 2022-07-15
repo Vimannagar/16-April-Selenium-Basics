@@ -10,7 +10,7 @@ import org.openqa.selenium.interactions.Actions;
 public class Scrolling {
 	
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver",
 				"F:\\Desktop\\VimanNagar\\16 Apr\\Selenium download\\chromedriver_win32\\chromedriver.exe");
 
@@ -51,7 +51,17 @@ public class Scrolling {
 		
 		JavascriptExecutor js = (JavascriptExecutor)driver;
 		
-		js.executeScript("window.scrollBy(0, 500)");
+//		js.executeScript("window.scrollBy(0, 500)");
+		
+		WebElement addclasselement = driver.findElement(By.xpath("//*[text()='Add Class']"));
+		
+		js.executeScript("arguments[0].scrollIntoView();", addclasselement);
+		
+		Thread.sleep(2000);
+		
+		js.executeScript("arguments[0].scrollIntoView();", iframe);
+		
+		
 		
 	}
 }
