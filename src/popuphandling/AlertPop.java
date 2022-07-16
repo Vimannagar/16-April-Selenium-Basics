@@ -27,6 +27,8 @@ public class AlertPop {
 		driver.switchTo().alert().accept();
 		
 		
+		
+		
 	}
 
 }
