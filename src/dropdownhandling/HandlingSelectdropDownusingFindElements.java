@@ -23,7 +23,9 @@ public class HandlingSelectdropDownusingFindElements {
 		
 	List<WebElement> dayvalues = driver.findElements(By.xpath("//*[@id='day']//option"));
 		
+	int numberofoptions = dayvalues.size();
 	
+	System.out.println("Number of options present in the dropdown is : "+numberofoptions);
 	
 	for(WebElement value :dayvalues)
 	{
