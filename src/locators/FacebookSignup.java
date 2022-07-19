@@ -27,7 +27,7 @@ public class FacebookSignup {
 		
 //		driver.findElement(By.xpath("//input[contains(@id,'u_0_d_')]")).sendKeys("Corporate");
 		
-WebElement mobilenumber = driver.findElement(By.xpath("//*[contains(@id,'u_0_g_')]"));
+		WebElement mobilenumber = driver.findElement(By.xpath("//*[contains(@id,'u_0_g_')]"));
 		
 		mobilenumber.sendKeys("9876543210");
 		
