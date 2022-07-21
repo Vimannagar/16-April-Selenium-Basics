@@ -3,6 +3,7 @@ package waits;
 import java.time.Duration;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -48,6 +49,9 @@ public class ExplicitWaits {
 //		ExpectedConditions.alertIsPresent();
 		
 //		ExpectedConditions.elementSelectionStateToBe(hiddenbutton, true);
+
+		
+		
 		
 		
 	}
