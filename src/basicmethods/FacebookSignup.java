@@ -26,9 +26,11 @@ public class FacebookSignup {
 		
 		ExcelReader er = new ExcelReader();
 		
-		String surname = er.readData(2, 1);
+//		String surname = er.readData(2, 1);
+		
+		
 	
-		driver.findElement(By.xpath("//input[contains(@id,'u_0_d_')]")).sendKeys(surname);
+		driver.findElement(By.xpath("//input[contains(@id,'u_0_d_')]")).sendKeys(er.readData(2, 1));
 		
 		WebElement mobilenumber = driver.findElement(By.xpath("//*[contains(@id,'u_0_g_')]"));
 		
