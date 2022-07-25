@@ -134,5 +134,6 @@
 	<classpathentry kind="lib" path="F:/Desktop/VimanNagar/16 Apr/Selenium download/poi-bin-5.2.2-20220312 (1)/poi-bin-5.2.2/xmlbeans-5.0.3.jar"/>
 	<classpathentry kind="lib" path="F:/Desktop/VimanNagar/16 Apr/Selenium download/poi-bin-5.2.2-20220312 (1)/poi-bin-5.2.2/xmlgraphics-commons-2.6.jar"/>
 	<classpathentry kind="lib" path="F:/Desktop/VimanNagar/16 Apr/Selenium download/poi-bin-5.2.2-20220312 (1)/poi-bin-5.2.2/xmlsec-2.3.0.jar"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
