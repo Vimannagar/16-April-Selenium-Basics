@@ -16,4 +16,16 @@ public class BasicTest {
 		System.out.println("Test case2 ");
 	}
 
+	
+	@Test
+	public void testCase3()
+	{
+		System.out.println("Test case2 ");
+	}
+	
+	@Test
+	public void testCase4()
+	{
+		System.out.println("Test case2 ");
+	}
 }
