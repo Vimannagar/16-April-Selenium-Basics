@@ -1,29 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="5" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-07-29T10:02:58 IST" name="Suite" finished-at="2022-07-29T10:02:58 IST" duration-ms="148">
+  <suite started-at="2022-07-30T09:52:12 IST" name="Default suite" finished-at="2022-07-30T09:52:13 IST" duration-ms="176">
     <groups>
-      <group name="Sanity">
-        <method signature="GroupingOfTestCases.handlingCheckBox()[pri:0, instance:testngdiscussion.GroupingOfTestCases@54bff557]" name="handlingCheckBox" class="testngdiscussion.GroupingOfTestCases"/>
-        <method signature="GroupingOfTestCases.loginToApp()[pri:0, instance:testngdiscussion.GroupingOfTestCases@54bff557]" name="loginToApp" class="testngdiscussion.GroupingOfTestCases"/>
-      </group> <!-- Sanity -->
     </groups>
-    <test started-at="2022-07-29T10:02:58 IST" name="Test" finished-at="2022-07-29T10:02:58 IST" duration-ms="148">
-      <class name="testngdiscussion.GroupingOfTestCases">
-        <test-method signature="handlingCheckBox()[pri:0, instance:testngdiscussion.GroupingOfTestCases@54bff557]" started-at="2022-07-29T10:02:58 IST" name="handlingCheckBox" finished-at="2022-07-29T10:02:58 IST" duration-ms="19" status="PASS">
+    <test started-at="2022-07-30T09:52:12 IST" name="Default test" finished-at="2022-07-30T09:52:13 IST" duration-ms="176">
+      <class name="testngdiscussion.Annotations">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testngdiscussion.Annotations@272113c4]" started-at="2022-07-30T09:52:13 IST" name="beforeClass" finished-at="2022-07-30T09:52:13 IST" duration-ms="33" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- handlingCheckBox -->
-        <test-method signature="loginToApp()[pri:0, instance:testngdiscussion.GroupingOfTestCases@54bff557]" started-at="2022-07-29T10:02:58 IST" name="loginToApp" finished-at="2022-07-29T10:02:58 IST" duration-ms="4" status="PASS">
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testngdiscussion.Annotations@272113c4]" started-at="2022-07-30T09:52:13 IST" name="beforeMethod" finished-at="2022-07-30T09:52:13 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginToApp -->
-        <test-method signature="testcase2()[pri:0, instance:testngdiscussion.GroupingOfTestCases@54bff557]" started-at="2022-07-29T10:02:58 IST" name="testcase2" finished-at="2022-07-29T10:02:58 IST" duration-ms="6" status="PASS">
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="searchLaptop()[pri:0, instance:testngdiscussion.Annotations@272113c4]" started-at="2022-07-30T09:52:13 IST" name="searchLaptop" finished-at="2022-07-30T09:52:13 IST" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testcase2 -->
-      </class> <!-- testngdiscussion.GroupingOfTestCases -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- searchLaptop -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testngdiscussion.Annotations@272113c4]" started-at="2022-07-30T09:52:13 IST" name="afterMethod" finished-at="2022-07-30T09:52:13 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testngdiscussion.Annotations@272113c4]" started-at="2022-07-30T09:52:13 IST" name="beforeMethod" finished-at="2022-07-30T09:52:13 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="searchMobile()[pri:0, instance:testngdiscussion.Annotations@272113c4]" started-at="2022-07-30T09:52:13 IST" name="searchMobile" finished-at="2022-07-30T09:52:13 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchMobile -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testngdiscussion.Annotations@272113c4]" started-at="2022-07-30T09:52:13 IST" name="afterMethod" finished-at="2022-07-30T09:52:13 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testngdiscussion.Annotations@272113c4]" started-at="2022-07-30T09:52:13 IST" name="afterClass" finished-at="2022-07-30T09:52:13 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testngdiscussion.Annotations -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

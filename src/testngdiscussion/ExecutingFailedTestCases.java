@@ -4,8 +4,7 @@ import java.util.NoSuchElementException;
 
 import org.testng.annotations.Test;
 
-public class DependsOnMethods {
-	
+public class ExecutingFailedTestCases {
 	
 	@Test(priority = 1)
 	public void getTitleOfPage()
@@ -23,18 +22,17 @@ public class DependsOnMethods {
 	}
 	
 	
-	@Test(priority = 3, dependsOnMethods = {"loginToApp", "getTitleOfPage"})
+	@Test(priority = 3, dependsOnMethods = "loginToApp")
 	public void navToAdminTab()
 	{
 		System.out.println("Navigate to Admin");
 	}
 	
-	@Test(priority = 4, dependsOnMethods = "navToAdminTab")
+	@Test(priority = 4)
 	public void handlingCheckBox()
 	{
 		System.out.println("CheckBox handling case");
 	}
-	
 	
 
 }

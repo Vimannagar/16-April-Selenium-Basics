@@ -5,8 +5,9 @@
   <groups>
   
   <run>
-  
-  <exclude name="Regression"></exclude>
+   
+  <include name="Functional"></include>
+   <include name="Regression"></include>
   
   </run>
   
@@ -14,6 +15,7 @@
   
     <classes>
       <class name="testngdiscussion.GroupingOfTestCases"/>
+       <class name="testngdiscussion.GroupingOfTestCases2"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

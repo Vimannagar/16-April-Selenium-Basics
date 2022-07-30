@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testngdiscussion.DependsOnMethodActual">
+      <class name="testngdiscussion.ExecutingFailedTestCases">
         <methods>
-          <include name="loginToApp"/>
           <include name="navToAdminTab"/>
-          <include name="handlingCheckBox"/>
+          <include name="loginToApp"/>
         </methods>
-      </class> <!-- testngdiscussion.DependsOnMethodActual -->
+      </class> <!-- testngdiscussion.ExecutingFailedTestCases -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
