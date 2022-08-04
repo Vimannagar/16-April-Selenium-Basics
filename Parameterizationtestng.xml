@@ -3,8 +3,13 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
   <parameter name="browser" value="Chrome"></parameter>
+  <parameter name="environment" value="stage"></parameter>
+  <parameter name="buildversion" value="1.2.3"></parameter>
     <classes>
       <class name="testngdiscussion.ParameterizationInTestNG"/>
     </classes>
   </test> <!-- Test -->
+  
+  
+  
 </suite> <!-- Suite -->

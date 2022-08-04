@@ -1,24 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-03T10:02:07 IST" name="Suite" finished-at="2022-08-03T10:02:07 IST" duration-ms="154">
+  <suite started-at="2022-08-04T10:02:02 IST" name="Suite" finished-at="2022-08-04T10:02:27 IST" duration-ms="25400">
     <groups>
     </groups>
-    <test started-at="2022-08-03T10:02:07 IST" name="Test" finished-at="2022-08-03T10:02:07 IST" duration-ms="154">
-      <class name="testngdiscussion.ParameterizationInTestNG">
-        <test-method signature="launchBrowser(java.lang.String)[pri:0, instance:testngdiscussion.ParameterizationInTestNG@5d0a1059]" started-at="2022-08-03T10:02:07 IST" name="launchBrowser" finished-at="2022-08-03T10:02:07 IST" duration-ms="24" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2022-08-04T10:02:02 IST" name="Test" finished-at="2022-08-04T10:02:27 IST" duration-ms="25400">
+      <class name="testngdiscussion.ParallelClassExecution2">
+        <test-method signature="launchFF()[pri:1, instance:testngdiscussion.ParallelClassExecution2@23c30a20]" started-at="2022-08-04T10:02:02 IST" name="launchFF" finished-at="2022-08-04T10:02:26 IST" duration-ms="24504" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchBrowser -->
-      </class> <!-- testngdiscussion.ParameterizationInTestNG -->
+        </test-method> <!-- launchFF -->
+        <test-method signature="enterDetails()[pri:2, instance:testngdiscussion.ParallelClassExecution2@23c30a20]" started-at="2022-08-04T10:02:26 IST" name="enterDetails" finished-at="2022-08-04T10:02:27 IST" duration-ms="787" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterDetails -->
+      </class> <!-- testngdiscussion.ParallelClassExecution2 -->
+      <class name="testngdiscussion.ParallelClassExecution">
+        <test-method signature="launchChrome()[pri:1, instance:testngdiscussion.ParallelClassExecution@54bff557]" started-at="2022-08-04T10:02:02 IST" name="launchChrome" finished-at="2022-08-04T10:02:15 IST" duration-ms="13186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchChrome -->
+        <test-method signature="enterDetails()[pri:2, instance:testngdiscussion.ParallelClassExecution@54bff557]" started-at="2022-08-04T10:02:15 IST" name="enterDetails" finished-at="2022-08-04T10:02:18 IST" duration-ms="2687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterDetails -->
+      </class> <!-- testngdiscussion.ParallelClassExecution -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
