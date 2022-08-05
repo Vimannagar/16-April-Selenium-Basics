@@ -1,31 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-04T10:02:02 IST" name="Suite" finished-at="2022-08-04T10:02:27 IST" duration-ms="25400">
+  <suite started-at="2022-08-05T09:43:27 IST" name="Suite" finished-at="2022-08-05T09:43:49 IST" duration-ms="21728">
     <groups>
     </groups>
-    <test started-at="2022-08-04T10:02:02 IST" name="Test" finished-at="2022-08-04T10:02:27 IST" duration-ms="25400">
-      <class name="testngdiscussion.ParallelClassExecution2">
-        <test-method signature="launchFF()[pri:1, instance:testngdiscussion.ParallelClassExecution2@23c30a20]" started-at="2022-08-04T10:02:02 IST" name="launchFF" finished-at="2022-08-04T10:02:26 IST" duration-ms="24504" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchFF -->
-        <test-method signature="enterDetails()[pri:2, instance:testngdiscussion.ParallelClassExecution2@23c30a20]" started-at="2022-08-04T10:02:26 IST" name="enterDetails" finished-at="2022-08-04T10:02:27 IST" duration-ms="787" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- enterDetails -->
-      </class> <!-- testngdiscussion.ParallelClassExecution2 -->
-      <class name="testngdiscussion.ParallelClassExecution">
-        <test-method signature="launchChrome()[pri:1, instance:testngdiscussion.ParallelClassExecution@54bff557]" started-at="2022-08-04T10:02:02 IST" name="launchChrome" finished-at="2022-08-04T10:02:15 IST" duration-ms="13186" status="PASS">
+    <test started-at="2022-08-05T09:43:27 IST" name="Test" finished-at="2022-08-05T09:43:49 IST" duration-ms="21728">
+      <class name="testngdiscussion.SampleTest1">
+        <test-method signature="launchChrome()[pri:1, instance:testngdiscussion.SampleTest1@54bff557]" started-at="2022-08-05T09:43:27 IST" name="launchChrome" finished-at="2022-08-05T09:43:38 IST" duration-ms="11118" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchChrome -->
-        <test-method signature="enterDetails()[pri:2, instance:testngdiscussion.ParallelClassExecution@54bff557]" started-at="2022-08-04T10:02:15 IST" name="enterDetails" finished-at="2022-08-04T10:02:18 IST" duration-ms="2687" status="PASS">
+        <test-method signature="enterDetails()[pri:2, instance:testngdiscussion.SampleTest1@54bff557]" started-at="2022-08-05T09:43:38 IST" name="enterDetails" finished-at="2022-08-05T09:43:39 IST" duration-ms="1057" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterDetails -->
-      </class> <!-- testngdiscussion.ParallelClassExecution -->
+      </class> <!-- testngdiscussion.SampleTest1 -->
+      <class name="testngdiscussion.SampleTest2">
+        <test-method signature="launchChrome()[pri:1, instance:testngdiscussion.SampleTest2@23c30a20]" started-at="2022-08-05T09:43:39 IST" name="launchChrome" finished-at="2022-08-05T09:43:47 IST" duration-ms="7629" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchChrome -->
+        <test-method signature="enterDetails()[pri:3, instance:testngdiscussion.SampleTest2@23c30a20]" started-at="2022-08-05T09:43:47 IST" name="enterDetails" finished-at="2022-08-05T09:43:48 IST" duration-ms="461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterDetails -->
+        <test-method signature="selectBirthdate()[pri:4, instance:testngdiscussion.SampleTest2@23c30a20]" started-at="2022-08-05T09:43:48 IST" name="selectBirthdate" finished-at="2022-08-05T09:43:49 IST" duration-ms="1310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectBirthdate -->
+      </class> <!-- testngdiscussion.SampleTest2 -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

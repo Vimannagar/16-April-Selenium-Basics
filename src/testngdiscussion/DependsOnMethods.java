@@ -29,12 +29,11 @@ public class DependsOnMethods {
 		System.out.println("Navigate to Admin");
 	}
 	
-	@Test(priority = 4, dependsOnMethods = "navToAdminTab")
+	@Test(priority = 4, dependsOnMethods = "navToAdminTab", alwaysRun = true)
 	public void handlingCheckBox()
 	{
 		System.out.println("CheckBox handling case");
 	}
 	
 	
-
 }

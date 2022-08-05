@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testngdiscussion.SoftAssertDisc">
+      <class name="testngdiscussion.DependsOnMethods">
         <methods>
-          <include name="testCase1"/>
-          <include name="validateTitle"/>
+          <include name="loginToApp"/>
+          <include name="navToAdminTab"/>
+          <include name="getTitleOfPage"/>
         </methods>
-      </class> <!-- testngdiscussion.SoftAssertDisc -->
+      </class> <!-- testngdiscussion.DependsOnMethods -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
