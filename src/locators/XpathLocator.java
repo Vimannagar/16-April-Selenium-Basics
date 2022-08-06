@@ -20,7 +20,7 @@ public class XpathLocator {
 
 		WebElement username = driver.findElement(By.xpath("//input[@name='txtUsername']"));
 
-		username.sendKeys("Adminn");
+		username.sendKeys("Admin");
 
 		WebElement pwd = driver.findElement(By.xpath("//input[@type='password']"));
 
