@@ -7,10 +7,11 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
 
 import pages.LoginPage;
+import pages.LoginPageAdvance;
 
 public class BaseTest {
 	static WebDriver driver;
-	LoginPage lp;
+	LoginPageAdvance lp;
 	@BeforeSuite
 	public void initBrowser()
 	{
@@ -27,7 +28,7 @@ public class BaseTest {
 	@BeforeClass
 	public void createObject()
 	{
-		lp = new LoginPage(driver);
+		lp = new LoginPageAdvance(driver);
 	}
 	
 	@AfterSuite
