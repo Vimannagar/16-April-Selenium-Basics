@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testngdiscussion.DependsOnMethods">
+      <class name="testngdiscussion.PolicyBazaar">
         <methods>
-          <include name="loginToApp"/>
-          <include name="navToAdminTab"/>
-          <include name="getTitleOfPage"/>
+          <include name="m1"/>
         </methods>
-      </class> <!-- testngdiscussion.DependsOnMethods -->
+      </class> <!-- testngdiscussion.PolicyBazaar -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

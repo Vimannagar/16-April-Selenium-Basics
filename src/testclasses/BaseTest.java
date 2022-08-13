@@ -10,7 +10,7 @@ import pages.LoginPage;
 import pages.LoginPageAdvance;
 
 public class BaseTest {
-	static WebDriver driver;
+	public static WebDriver driver;
 	LoginPageAdvance lp;
 	@BeforeSuite
 	public void initBrowser()
